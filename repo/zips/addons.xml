@@ -1,0 +1,399 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="plugin.program.bradleysbuilds" name="[COLOR red]BRADLEYS BUILDS[/COLOR] Maintanance " version="1.1" provider-name="BLRY">
+	<requires>
+		<import addon="xbmc.python" version="3.0.1" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Simple Maintanance is a lightweight template for installing builds on Kodi 21 Omega. Has some code from Aftermath Maintanance by Surfacingx. Skin Switch by OpenELEQ. Base code by BYB. Credits to them and all others who contributed. Please report any bugs to @slamious on Telegram/Twitter.</summary>
+		<description lang="en_GB">Kodi Maintanance</description>
+		<disclaimer lang="en_GB">This Addon contains no content</disclaimer>
+		<language>en</language>
+		<platform>all</platform>
+		<license>GPL-2.0-or-later</license>
+		<forum />
+		<website /> 
+		<email />
+		<source />
+		<news>
+		1.1 - URL Fixes		
+		1.0 - Initial Release
+		</news>
+		<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
+				<banner />
+				<clearlogo />
+				<screenshot />
+		</assets>
+	</extension>
+</addon><addon id="plugin.program.darealist" name="Simply Darealist Wizard" version="3.0" provider-name="Slam, Sarge, Funsterbe, BYB Edited by Zippo">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />												   
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Simple Wizard is a lightweight template for installing builds on Kodi. Has some code from Aftermath Wizard by Surfacingx. Skin Switch by OpenELEQ. Base code by BYB. Credits to them and all others who contributed. Please report any bugs to @slamious on Telegram/Twitter.</summary>
+		<description lang="en_GB">Kodi Wizard</description>
+		<disclaimer lang="en_GB">This Addon contains no content</disclaimer>
+		<language>en</language>
+		<platform>all</platform>
+		<license>GPL-2.0-or-later</license>
+		<forum />
+		<website /> 
+		<email />
+		<source />
+		<news />
+		<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
+				<banner />
+				<clearlogo />
+				<screenshot />
+		</assets>
+	</extension>
+</addon><addon id="plugin.program.simpledarealist" name="Darealist Simple Wizard" version="3.0.7" provider-name="Slam, Sarge, Funsterbe, BYB edited by Zippo">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB"> Darealist Simple Wizard is a lightweight template for installing builds on Kodi. Has some code from Aftermath Wizard by Surfacingx. Skin Switch by OpenELEQ. Base code by BYB. Credits to them and all others who contributed. Please report any bugs to @slamious on Telegram/Twitter.</summary>
+		<description lang="en_GB">Kodi Wizard</description>
+		<disclaimer lang="en_GB">This Addon contains no content</disclaimer>
+		<language>en</language>
+		<platform>all</platform>
+		<license>GPL-2.0-or-later</license>
+		<forum />
+		<website /> 
+		<email />
+		<source />
+		<news />
+		<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
+				<banner />
+				<clearlogo />
+				<screenshot />
+		</assets>
+	</extension>
+</addon><addon id="plugin.video.free99" version="1.9" name="[COLOR goldenrod]Free99[/COLOR]" provider-name="JewBMX, DIGGZ">
+    <requires>
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+        <import addon="script.module.simplejson" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.resolveurl" />
+        <import addon="script.free99.artwork" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension library="service.py" point="xbmc.service" start="startup" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Squeezing the last drop out of free scapers</summary>
+        <description lang="en">Diggz Scrubs Fork</description>
+        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+        <license />
+        <platform>all</platform>
+        <assets>
+            <icon>resources/images/icon.png</icon>
+            <fanart>resources/images/fanart.jpg</fanart>
+        </assets>
+        <news />
+    </extension>
+</addon><addon id="plugin.video.looptv" name="Loop TV" version="26+matrix.2" provider-name="Munkee - RACC">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="script.module.pycryptodome" />
+    <import addon="script.module.pyamf" />
+    <import addon="script.module.kodi-six" />
+    <import addon="script.module.future" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <summary lang="en_gb">tvOne</summary>
+    <description lang="en_gb">tvOne</description>
+    <disclaimer lang="en_gb" />
+    <language />
+    <platform>all</platform>
+    <license>GPL-3.0</license>
+    <forum />
+    <website />
+    <email />
+    <source />
+    <assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon><addon id="plugin.video.neo_flix" name="[COLORlime]Neo Flix[/COLOR]" version="3.3.28" provider-name="">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+		<import addon="script.module.resolveurl" />
+		<import addon="script.module.requests" />
+        <import addon="script.module.inputstreamhelper" />
+        <import addon="inputstream.adaptive" version="2.6.0" />
+    </requires>
+	 <extension point="xbmc.python.pluginsource" library="main.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en" />
+	<description lang="en_GB">No Streams Are Stored Locally-All Are Available Freely On The Internet-A Mixture Of Free And Debrid Links</description>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GPL-2.0-or-later</license>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+  </assets>
+  </extension>
+</addon><addon id="plugin.video.paradox" name="[COLORwhite]Paradox AIO[/COLOR]" version="1.3.8" provider-name="">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+		<import addon="script.module.resolveurl" />
+		<import addon="script.module.requests" />
+        <import addon="script.module.inputstreamhelper" />
+        <import addon="inputstream.adaptive" version="2.6.0" />
+    </requires>
+	 <extension point="xbmc.python.pluginsource" library="main.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en" />
+	<description lang="en_GB">Any problems-refresh the lists... A VPN may be needed in some countries</description>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GPL-2.0-or-later</license>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+  </assets>
+  </extension>
+</addon><addon id="plugin.video.streamedez" name="StreamedEZ" version="1.0.11" provider-name="BlazeyMcBlazeFace">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" version="2.12.0" />
+        <import addon="script.module.certifi" version="2023.5.7" />
+        <import addon="inputstream.adaptive" version="2.4.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Sports Streaming Service</summary>
+        <description>Watch live sports From Streamed PK sources</description>
+        <platform>all</platform>
+        <language>en</language>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon><addon id="plugin.video.the-loop" name="The Loop" version="7.6" provider-name="Munkee">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing" />
+    <import addon="script.module.unidecode" />
+    <import addon="script.module.tzlocal" />
+    <import addon="script.module.jetextractors" />
+    <import addon="script.module.inputstreamhelper" />
+    <import addon="script.module.resolveurl" />
+    <import addon="script.module.pytz" />
+    <import addon="script.module.pyamf" />
+    <import addon="script.module.pycryptodome" optional="true" />
+    <import addon="script.module.microjenscrapers" optional="true" />
+    
+    <import addon="plugin.video.looptv" />
+    <import addon="plugin.video.dailymotion_com" />    
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">The Loop rewritten on a smaller MicroJen Codebase. A Massive thanks to all The Jen Crew for their valuable contributions in bringing this project together. Stay In The Loop</summary>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GPL-2.0-or-later</license>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+  </assets>
+  </extension>
+</addon><addon id="plugin.video.tvfree" name="TV Free" version="0.0.6" provider-name="X">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.routing" />
+    <import addon="script.module.resolveurl" />
+    <import addon="script.module.pytz" />
+    <import addon="script.module.tzlocal" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+    <summary lang="en_GB">Non Debrid</summary>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GPL-2.0-or-later</license>
+  </extension>
+</addon><addon id="repository.darealist" name="[COLOR gold]Darealist[/COLOR]" version="1.0" provider-name="blry">
+    <extension point="xbmc.addon.repository" name="Example Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/darealist2021/DAREALIST-REPO/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/darealist2021/DAREALIST-REPO/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/darealist2021/DAREALIST-REPO/master/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Darealist Repo</summary>
+        <description>Repo for the Darealist Wizard</description>
+        <disclaimer />
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon><addon id="script.free99.artwork" version="1.0" name="[COLOR orange]Free99 Artwork[/COLOR]" provider-name="JewBMX">
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary>Free99 Artwork</summary>
+        <description>Free99 Artwork</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon><addon id="script.module.jetextractors" name="JetExtractors" version="3.3.5" provider-name="THE TEAM">
+	<requires>
+		<import addon="script.module.requests" />
+		<import addon="script.module.beautifulsoup4" />
+		<import addon="script.module.dateutil" />
+		<import addon="script.module.soupsieve" />
+		<import addon="script.module.pyairtable" />
+		<import addon="script.module.pyamf" />
+		<import addon="script.module.pycryptodome" optional="true" />
+		<import addon="script.module.pyjsparser" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Jet Extractors</summary>
+		<description lang="en">Jet Extractors</description>
+		<disclaimer lang="en" />
+		<license>MIT</license>
+		<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon><addon id="script.module.microjenscrapers" name="MicroJen Scraper Module" version="1.8" provider-name="MicroJen Community">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.beautifulsoup4" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+        <import addon="script.module.simplejson" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="lib/default.py">
+        <provides>executable</provides>
+    </extension>
+        <extension point="xbmc.addon.metadata">
+            <platform>all</platform>
+            <summary lang="en">MicroJen Scrapers Module</summary>
+            <description>Scrape common video host for URL's to be playable in Kodi, simplifying addon development of video plugins requiring multi video hosts. [CR]Massive thanks and respect to Crucial Minds for permission to use the Base Code and to The Jen Crew for their valuable contributions in bringing this project together.</description>
+                <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+    <news />
+    </extension>
+</addon><addon id="script.module.pyairtable" name="pyairtable" version="1.4.0">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Python Client for the Airtable API</summary>
+    <description lang="en_GB">Python Client for the Airtable API</description>
+    <license>MIT</license>
+    <platform>all</platform>
+    <website>https://pyairtable.readthedocs.io/</website>
+    <source>https://github.com/gtalarico/pyairtable</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon><addon id="script.module.pyjsparser" name="pyjsparser" version="3.0.0" provider-name="Addons4Kodi">
+  <requires>
+    
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Pure Python JavaScript Translator/Interpreter</summary>
+    <description>Packed for Kodi from https://github.com/PiotrDabkowski/pyjsparser</description>
+    <platform>all</platform>
+    <language />
+    <license>MIT</license>
+    <forum />
+    <website>https://github.com/PiotrDabkowski/pyjsparser</website>
+    <source>https://github.com/PiotrDabkowski/pyjsparser</source>
+    <email />
+  </extension>
+</addon><addon id="script.module.resolveurl" name="ResolveURL" version="5.1.189" provider-name="gujal">
+    <requires>
+        
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+        <import addon="plugin.video.youtube" optional="true" />
+        <import addon="script.module.python.twitch" optional="true" />
+        <import addon="plugin.googledrive" optional="true" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="lib/default.py" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en_GB">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
+        <summary lang="es_ES">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
+        <summary lang="hr_HR">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
+        <summary lang="el_GR">Επίλυση συνδέσμων κοινών εξυπηρετητών σε μορφή βίντεο ικανό για αναπαραγωγή στο XBMC/Kodi.</summary>
+        <description lang="en_GB">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+        <description lang="el_GR">Επίλυση συνδέσμων κοινών εξυπηρετητών σε μορφή βίντεο ικανό για αναπαραγωγή στο XBMC/Kodi, απλοποίηση της ανάπτυξης των προσθέτων που χρησιμοποιούν πολλαπλούς εξυπηρετητές για υλικό βίντεο</description>
+        <description lang="hr_HR">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
+        <disclaimer lang="en_GB">This script only resolves video content from legitimate file lockers without prejudice. If this script is being used by 3rd parties to resolve content that you feel infringes upon your Intellectual Property then please take your complaints to the actual website or developer linking to such content and not here. This script in no way searches for any content whatsoever.</disclaimer>
+        <disclaimer lang="el_GR">Το ανωτέρο σενάριο το μόνο που κάνει είναι να επιλύει οπτικοακουστικό περιεχόμενο από νόμιμες πηγές χωρίς προκατάληψη. Εάν το ανωτέρο σενάριο χρησιμοποιηθεί από τρίτους ώστε να επιλύσει περιεχόμενο το οποίο σας προκαλεί αντίδραση ότι παραβιάζει την πνευματική σας ιδιοκτησία παρακαλώ μεταφέρετε τα παραπονά σας στον ιστότοπο τον οποίο βρίσκεται το εν λόγω περιεχόμενο η τον δημιουργό ο οποίος πραγματοποιεί την σύνδεση και όχι εδω. Το σενάριο αυτό ουδεμία περίπτωση πραγματοποιεί αναζήτηση περιεχομένου.</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon></addons>
