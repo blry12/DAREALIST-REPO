@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<settings>
+    <category label="General">
+        <setting id="show_all_matches" 
+                 type="bool" 
+                 label="Show matches without playable sources (Schedule View)" 
+                 default="false"/>
+        <setting id="api_timeout"
+                 type="slider"
+                 label="API Timeout (Seconds)"
+                 default="2"
+                 range="1,1,30"
+                 option="int"/>
+        <setting id="user_uuid" type="text" label="User ID" visible="false" default=""/>
+    </category>
+
+    <category label="Time To Appear After Game Is Live">
+        <setting id="pre_game_window" 
+                 type="slider" 
+                 label="Show 'Live' Before Start (Minutes)" 
+                 default="30" 
+                 range="0,5,120" 
+                 option="int"
+                 help="How many minutes before the official start time should the match appear in the Live folder?"/>
+        
+        <setting type="sep"/>
+        <setting id="duration_default" type="slider" label="Default Duration (Hours)" default="4" range="1,1,12" option="int"/>
+        <setting id="duration_football" type="slider" label="Football/NFL Duration" default="4" range="1,1,6" option="int"/>
+        <setting id="duration_basketball" type="slider" label="Basketball/NBA Duration" default="4" range="1,1,6" option="int"/>
+        <setting id="duration_baseball" type="slider" label="Baseball/MLB Duration" default="4" range="1,1,6" option="int"/>
+        <setting id="duration_hockey" type="slider" label="Hockey/NHL Duration" default="4" range="1,1,6" option="int"/>
+        <setting id="duration_soccer" type="slider" label="Soccer Duration" default="4" range="1,1,6" option="int"/>
+        <setting id="duration_fighting" type="slider" label="Fighting (MMA/Box) Duration" default="4" range="1,1,6" option="int"/>
+        <setting id="duration_racing" type="slider" label="Racing Duration" default="4" range="1,1,6" option="int"/>
+        <setting id="duration_cricket" type="slider" label="Cricket Duration" default="4" range="1,1,24" option="int"/>
+    </category>
+    
+    <category label="Cache Settings">
+        <setting type="action" label="Clear All Cache &amp; Refresh" action="RunPlugin(plugin://plugin.video.streamedez/?mode=clear_full_cache)"/>
+    </category>
+</settings>
