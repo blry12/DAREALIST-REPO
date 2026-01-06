@@ -8,7 +8,7 @@
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Test</summary>
+        <summary>Darealist Repo</summary>
         <description>Repo for the Darealist Wizard</description>
         <disclaimer></disclaimer>
         <platform>all</platform>
